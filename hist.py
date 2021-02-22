@@ -16,7 +16,7 @@ def print_color_hist(src):
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
-    print('usage: python hist.py <input-image>')
-    exit(0)
+        print('usage: python hist.py <input-image>')
+        exit(0)
     
     print_color_hist(sys.argv[1])
